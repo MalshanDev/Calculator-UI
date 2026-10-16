@@ -52,3 +52,34 @@ body {
     text-align: right;
     font-weight: bold;
 }
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button{
+    height: 65px;
+    border: none;
+    border-radius: 18px;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+    background: #ffffff;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2),
+                -3px -3px 8px rgba(255, 255, 255, 0.2);
+}
+
+button:hover{
+    transform:scale(.96);
+}
+
+.zero{
+    grid-column: span 2;
+}
+
+.equals{
+    background: #0fa89b;
+    color: #fff;
+}
