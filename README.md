@@ -9,10 +9,10 @@ A clean and modern Calculator built using **HTML**, **CSS**, and **JavaScript**.
 > Add screenshots here
 
 ### Light Mode
-![Light Mode](images/light-mode.png)
+![Light Mode](lightMode.png)
 
 ### Dark Mode
-![Dark Mode](images/dark-mode.png)
+![Dark Mode](darkMode.png)
 
 ---
 
