@@ -71,9 +71,16 @@ button {
         -3px -3px 8px rgba(255, 255, 255, 0.2);
 }
 
+.equals:hover {
+    transform: scale(.96);
+    background: #0b968a;
+}
+
 button:hover {
     transform: scale(.96);
+    background: #f3f3f3;
 }
+
 
 .zero {
     grid-column: span 2;
