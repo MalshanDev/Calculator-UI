@@ -1,11 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
+
 <body>
-    
+
+    <div class="calculator">
+
+        <div class="top">
+            <h2>Model-001</h2>
+
+            <label class="switch">
+                <input type="checkbox" id="theme">
+                <span class="slider"></span>
+            </label>
+        </div>
+
+        <div class="display">
+            <div class="history" id="history"></div>
+            <input type="text" id="result" readonly>
+        </div>
+
+    </div>
+
 </body>
+
 </html>
